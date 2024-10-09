@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./styles.module.css";
 import logoIcon from "../../assets/icons/logo.svg";
 import cartIcon from "../../assets/icons/cart.svg";
