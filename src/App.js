@@ -12,7 +12,7 @@ import DiscountedProductsPage from "./pages/Products/Discounted";
 import ProductDetailsPage from "./pages/ProductDetails";
 import CartPage from "./pages/Cart";
 import NotFoundPage from "./pages/NotFound";
-import ConnectedModal from "./components/Modal";
+import ConnectedModal from "./components/Modal/ConnectedModal";
 
 function App() {
   return (

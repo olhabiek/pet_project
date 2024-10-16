@@ -6,6 +6,7 @@
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 40px;
+  margin-bottom: 80px;
 }
 
 .gridContainer {
@@ -54,7 +55,6 @@
   border-radius: 12px;
   width: 100%;
   max-height: 350px;
-  /* height: auto; */
   border: none;
   object-fit: cover;
 }
@@ -64,20 +64,16 @@
     grid-template-columns: 1fr;
     gap: 16px;
   }
-
   .gridItem {
     padding: 24px;
   }
-
   .gridItem > :last-child {
     font-size: 32px;
     line-height: 36px;
   }
-
   .iconItem {
     width: 36px;
   }
-
   .mapContainer {
     height: 300px;
   }
@@ -87,16 +83,13 @@
   .gridItem {
     padding: 16px;
   }
-
   .gridItem > :last-child {
     font-size: 28px;
     line-height: 32px;
   }
-
   .iconItem {
     width: 32px;
   }
-
   .mapContainer {
     height: 250px;
   }

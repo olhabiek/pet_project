@@ -1,0 +1,18 @@
+.btnStyle {
+  min-width: 218px;
+  padding: 16px 0;
+  border: none;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  background-color: #0d50ff;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btnStyle:hover {
+  background-color: #282828;
+  color: #ffffff;
+}

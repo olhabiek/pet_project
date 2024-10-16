@@ -1,6 +1,7 @@
 import React from "react";
-import styles from "./styles.module.css";
 import { Link } from "react-router-dom";
+import styles from "./styles.module.css";
+
 import instagramIcon from "../../assets/icons/instagram.svg";
 import whatsappIcon from "../../assets/icons/whatsapp.svg";
 import mapImage from "../../assets/images/map.png";

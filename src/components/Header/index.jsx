@@ -1,16 +1,19 @@
 import React from "react";
-import styles from "./styles.module.css";
-import logoIcon from "../../assets/icons/logo.svg";
-import cartIcon from "../../assets/icons/cart.svg";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import styles from "./styles.module.css";
+
+import logoIcon from "../../assets/icons/logo.svg";
+import cartIcon from "../../assets/icons/cart.svg";
 
 function Header() {
   const cartItems = useSelector((state) => state.cart.items);
+
   const cartItemsCount = cartItems.reduce(
     (total, item) => total + item.quantity,
     0
   );
+
   return (
     <header>
       <div className={styles.headerContainer}>
@@ -42,7 +45,7 @@ function Header() {
           </ul>
         </nav>
         <Link to="/cart" className={styles.cartLink}>
-          <img src={cartIcon} alt="Cart" />
+          <img src={cartIcon} alt="Cart" className={styles.cartIcon} />
           {cartItemsCount > 0 && (
             <span className={styles.cartBadge}>{cartItemsCount}</span>
           )}

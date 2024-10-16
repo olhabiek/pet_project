@@ -1,0 +1,38 @@
+.productsByCategoryPage {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+}
+
+.selectSort {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.filterContainer {
+  display: flex;
+  align-items: center;
+
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.productsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 32px;
+}
+
+.sortTitle {
+  font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+  .filterContainer {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
